@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NCSuite">
+  <test thread-count="5" name="NCTest">
+    <classes>
+      <class name="testNGExamples.TestExample6"/>
+      <class name="testNGExamples.TestExample7"/>
+      <class name="testNGExamples.TestExample12"/>
+      <class name="testNGExamples.TestExample13"/>
+      <class name="testNGExamples.TestExample4"/>
+      <class name="testNGExamples.TestExample5"/>
+      <class name="testNGExamples.TestExample8"/>
+      <class name="testNGExamples.TestExample9"/>
+      <class name="testNGExamples.TestExample2"/>
+      <class name="testNGExamples.TestExample3"/>
+      <class name="testNGExamples.TestExample1"/>
+    </classes>
+  </test> <!-- NCTest -->
+</suite> <!-- NCSuite -->

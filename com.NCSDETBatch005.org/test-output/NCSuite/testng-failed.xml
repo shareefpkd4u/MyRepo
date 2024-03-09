@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NCSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NCTest(failed)">
+    <classes>
+      <class name="testNGExamples.TestExample8">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample8 -->
+      <class name="testNGExamples.TestExample5">
+        <methods>
+          <include name="method1"/>
+          <include name="method2"/>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample5 -->
+      <class name="testNGExamples.TestExample1">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample1 -->
+      <class name="testNGExamples.TestExample2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="testMethod1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample2 -->
+      <class name="testNGExamples.TestExample7">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample7 -->
+      <class name="testNGExamples.TestExample13">
+        <methods>
+          <include name="googleApp"/>
+          <include name="linkedIn"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample13 -->
+      <class name="testNGExamples.TestExample4">
+        <methods>
+          <include name="method2"/>
+          <include name="method1"/>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample4 -->
+      <class name="testNGExamples.TestExample9">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- testNGExamples.TestExample9 -->
+    </classes>
+  </test> <!-- NCTest(failed) -->
+</suite> <!-- Failed suite [NCSuite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="NC">
+	<groups>
+		<run>
+			<include name="Smoke" />
+			<exclude name="Regression" />
+		</run>
+	</groups>
+
+	<test thread-count="5" name="LoginFunctionality">
+		<classes>
+			<class name="testNGExamples.TestExample2" />
+			<class name="testNGExamples.TestExample3" />
+			<class name="testNGExamples.TestExample1" />
+		</classes>
+	</test>
+</suite> 

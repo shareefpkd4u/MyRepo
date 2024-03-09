@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NCSuite" class="navigator-link">
+              <span class="suite-name border-failed">NCSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NCSuite" class="navigator-link ">
+                    <span>C:\Users\91900\eclipse-workspace\com.NCSDETBatch005.org\NCTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NCSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NCSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NCSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NCSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NCSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NCSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 6 failed,  5 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NCSuite" class="hide-methods failed suite-NCSuite"> (hide)</a> <!-- hide-methods failed suite-NCSuite -->
+                      <a href="#" panel-name="suite-NCSuite" class="show-methods failed suite-NCSuite"> (show)</a> <!-- show-methods failed suite-NCSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-NCSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample13" class="method navigator-link" hash-for-method="googleApp">googleApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample5" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample8" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample9" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample4" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample7" class="method navigator-link" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NCSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-NCSuite" class="hide-methods skipped suite-NCSuite"> (hide)</a> <!-- hide-methods skipped suite-NCSuite -->
+                      <a href="#" panel-name="suite-NCSuite" class="show-methods skipped suite-NCSuite"> (show)</a> <!-- show-methods skipped suite-NCSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-NCSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample13" class="method navigator-link" hash-for-method="linkedIn">linkedIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample4" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample5" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample5" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample4" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-NCSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NCSuite" class="hide-methods passed suite-NCSuite"> (hide)</a> <!-- hide-methods passed suite-NCSuite -->
+                      <a href="#" panel-name="suite-NCSuite" class="show-methods passed suite-NCSuite"> (show)</a> <!-- show-methods passed suite-NCSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-NCSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample6" class="method navigator-link" hash-for-method="Dashboard">Dashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample6" class="method navigator-link" hash-for-method="catalog">catalog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample13" class="method navigator-link" hash-for-method="faceBook">faceBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample1" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample3" class="method navigator-link" hash-for-method="ncLogin">ncLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample12" class="method navigator-link" hash-for-method="ncLogin2(admin@yourstore.com, admin)">ncLogin2(admin@yourstore.com, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample12" class="method navigator-link" hash-for-method="ncLogin2(test@yourstore.com, test123)">ncLogin2(test@yourstore.com, test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample2" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NCSuite" title="testNGExamples.TestExample2" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NCSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NCSuite" class="panel NCSuite">
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                  <div class="stack-trace">java.lang.AssertionError: Both are not same expected [false] but found [true]
+	at testNGExamples.TestExample8.method1(TestExample8.java:14)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testNGExamples.TestExample5.method1(TestExample5.java:10)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod">
+                  </a> <!-- testMethod -->
+                  <span class="method-name">testMethod</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method testNGExamples.TestExample7.testMethod() didn&apos;t finish within the time-out 100
+	at java.base@17.0.9/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@17.0.9/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base@17.0.9/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base@17.0.9/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base@17.0.9/java.io.PrintStream.write(PrintStream.java:570)
+	at java.base@17.0.9/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:234)
+	at java.base@17.0.9/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:313)
+	at java.base@17.0.9/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:111)
+	at java.base@17.0.9/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:178)
+	at java.base@17.0.9/java.io.PrintStream.writeln(PrintStream.java:723)
+	at java.base@17.0.9/java.io.PrintStream.println(PrintStream.java:1028)
+	at app//testNGExamples.TestExample7.testMethod(TestExample7.java:9)
+	at java.base@17.0.9/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.9/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleApp">
+                  </a> <!-- googleApp -->
+                  <span class="method-name">googleApp</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testNGExamples.TestExample13.googleApp(TestExample13.java:25)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testNGExamples.TestExample4.method1(TestExample4.java:10)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNGExamples.TestExample9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Both are not same expected [true] but found [false]
+	at testNGExamples.TestExample9.method1(TestExample9.java:22)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-failed -->
+          <div class="suite-NCSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNGExamples.TestExample5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExample5.method2()[pri:0, instance:testNGExamples.TestExample5@740fb309] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExample5.method3()[pri:0, instance:testNGExamples.TestExample5@740fb309] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-skipped -->
+          <div class="suite-NCSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNGExamples.TestExample13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkedIn">
+                  </a> <!-- linkedIn -->
+                  <span class="method-name">linkedIn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExample13.linkedIn()[pri:0, instance:testNGExamples.TestExample13@4e5ed836] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-skipped -->
+          <div class="suite-NCSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNGExamples.TestExample4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExample4.method2()[pri:0, instance:testNGExamples.TestExample4@eadd4fb] depends on not successfully finished methods in group &quot;Smoke&quot;
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestExample4.method3()[pri:0, instance:testNGExamples.TestExample4@eadd4fb] depends on not successfully finished methods in group &quot;Smoke&quot;
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-skipped -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ncLogin2(admin@yourstore.com, admin)">
+                  </a> <!-- ncLogin2(admin@yourstore.com, admin) -->
+                  <span class="method-name">ncLogin2</span>
+                  <span class="parameters">(admin@yourstore.com, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ncLogin2(test@yourstore.com, test123)">
+                  </a> <!-- ncLogin2(test@yourstore.com, test123) -->
+                  <span class="method-name">ncLogin2</span>
+                  <span class="parameters">(test@yourstore.com, test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="faceBook">
+                  </a> <!-- faceBook -->
+                  <span class="method-name">faceBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dashboard">
+                  </a> <!-- Dashboard -->
+                  <span class="method-name">Dashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="catalog">
+                  </a> <!-- catalog -->
+                  <span class="method-name">catalog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+          <div class="suite-NCSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGExamples.TestExample3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ncLogin">
+                  </a> <!-- ncLogin -->
+                  <span class="method-name">ncLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NCSuite-class-passed -->
+        </div> <!-- panel NCSuite -->
+        <div panel-name="test-xml-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91900\eclipse-workspace\com.NCSDETBatch005.org\NCTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NCSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NCTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNGExamples.TestExample6&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample7&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample12&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample13&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample4&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample5&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample8&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample9&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample2&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample3&quot;/&gt;
+      &lt;class name=&quot;testNGExamples.TestExample1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NCTest --&gt;
+&lt;/suite&gt; &lt;!-- NCSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NCSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NCTest (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NCSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">method2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">method3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ncLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMethod2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">method1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMethod1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NCSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NCSuite');
+function tableData_NCSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ncLogin')
+data.setCell(0, 2, 'testNGExamples.TestExample3')
+data.setCell(0, 3, 18744);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'faceBook')
+data.setCell(1, 2, 'testNGExamples.TestExample13')
+data.setCell(1, 3, 8150);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod')
+data.setCell(2, 2, 'testNGExamples.TestExample7')
+data.setCell(2, 3, 188);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ncLogin2')
+data.setCell(3, 2, 'testNGExamples.TestExample12')
+data.setCell(3, 3, 39);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'method1')
+data.setCell(4, 2, 'testNGExamples.TestExample9')
+data.setCell(4, 3, 25);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'googleApp')
+data.setCell(5, 2, 'testNGExamples.TestExample13')
+data.setCell(5, 3, 13);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ncLogin2')
+data.setCell(6, 2, 'testNGExamples.TestExample12')
+data.setCell(6, 3, 11);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'method1')
+data.setCell(7, 2, 'testNGExamples.TestExample8')
+data.setCell(7, 3, 7);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMethod2')
+data.setCell(8, 2, 'testNGExamples.TestExample2')
+data.setCell(8, 3, 6);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'method1')
+data.setCell(9, 2, 'testNGExamples.TestExample5')
+data.setCell(9, 3, 5);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'catalog')
+data.setCell(10, 2, 'testNGExamples.TestExample6')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Dashboard')
+data.setCell(11, 2, 'testNGExamples.TestExample6')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'method1')
+data.setCell(12, 2, 'testNGExamples.TestExample1')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMethod1')
+data.setCell(13, 2, 'testNGExamples.TestExample2')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'method1')
+data.setCell(14, 2, 'testNGExamples.TestExample4')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'method3')
+data.setCell(15, 2, 'testNGExamples.TestExample5')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'linkedIn')
+data.setCell(16, 2, 'testNGExamples.TestExample13')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'method2')
+data.setCell(17, 2, 'testNGExamples.TestExample4')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'method2')
+data.setCell(18, 2, 'testNGExamples.TestExample5')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'method3')
+data.setCell(19, 2, 'testNGExamples.TestExample4')
+data.setCell(19, 3, 0);
+window.suiteTableData['NCSuite']= { tableData: data, tableDiv: 'times-div-NCSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-NCSuite">
+              </div> <!-- times-div-NCSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NCSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNGExamples.TestExample6</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NCSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMethod</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample12</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ncLogin2(admin@yourstore.com, admin)</span>
+                <span class="method-start">351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ncLogin2(test@yourstore.com, test123)</span>
+                <span class="method-start">376 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample13</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleApp</span>
+                <span class="method-start">423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">faceBook</span>
+                <span class="method-start">535 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method1</span>
+                <span class="method-start">8690 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method1</span>
+                <span class="method-start">8697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method1</span>
+                <span class="method-start">8706 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample9</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method1</span>
+                <span class="method-start">8718 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">8752 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">8754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">8763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">8776 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8777 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ncLogin</span>
+                <span class="method-start">13944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32691 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">33163 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dashboard</span>
+                <span class="method-start">33204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">catalog</span>
+                <span class="method-start">33209 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNGExamples.TestExample2</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">33214 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">33575 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
